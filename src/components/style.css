@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+/* _________________________ mobile view*/
+/* _________________________ desktop view */
+@media (min-width: 720px){
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    padding: 3rem;
+    align-items: baseline;
+  }
+  .first_nav{
+    display: flex;
+    padding: 1rem;
+    padding-left: 7rem;
+  }
+  nav{
+    display: flex;
+    padding: 1rem;
+    font-size: 17px;
+  }
+  .second_nav{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-right: 10rem;  
+  }
+  a{
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+    margin-right: 5rem;
+    color:hsl(0, 0%, 75%);
+  }
+  .third_nav{
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+  /* ___________first_section__________ */
+  .sec1_container{
+    display: flex;
+  }
+  span{
+    font-size: 60px;
+    font-weight: 700;
+  }
+  p{
+    font-size: 24px;
+    color: hsl(0, 0%, 75%);
+  }
+  .sec1_content{
+      padding: 4rem;
+      margin-left: 6rem;
+  }
+  .btn1{
+    height: 3rem;
+    width: 13rem;
+    border-radius: 500px;
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    font-size: 20px;
+  }
+  .img1{
+    height: 30rem;
+    width: 38rem;
+    padding-left: 1rem;
+  }
+   /* ___________Second_section__________ */
+   .second_container{
+     padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+   }
+  .card{
+    border-radius: 20px;
+    background-image: url('../images/bg-shorten-desktop.svg');
+    background-color: hsl(257, 27%, 26%);
+    height: 280%;
+    width: 70%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+   }
+   input{
+    height: 50px;
+    width: 35rem;
+    border-radius: 10px;
+   }
+   .btn2{
+     border-radius: 10px;
+     height: 50px;
+     width: 13rem;
+     background-color:  hsl(180, 66%, 49%);
+     color: white;
+     font-size: 20px;
+     margin-left: 1rem;
+   }
+    /* ___________Second_section__________ */
+    .third_container{
+      display: flex;
+      flex-direction: column;
+      background-color:  gray;
+    }
+    .third_content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem;
+    }
+    .third_card{
+      display: flex;
+    }
+    .card_div{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 8rem;
+     
+    }
+    .card_sec3{
+      width: 25%;
+      text-align: center;
+      background-color: white;
+      height: 30%;
+    }
+    .card2_sec3{
+      width: 25%;
+      text-align: center;
+      background-color: white;
+      margin-top: 2.5rem;
+      height: 30%;
+    }
+    .card3_sec3{
+      width: 25%;
+      text-align: center;
+      background-color: white;
+      margin-top: 5rem;
+      height: 30%;
+    }
+    h5{
+      font-size: 16px;
+      color: gray;
+      padding:10px ;
+    }
+    .circle{
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50%;
+      background-color:  hsl(180, 66%, 49%);
+      margin-top: -2rem;
+      margin-left: 1rem;
+    }
+    hr{
+      size: 10px;
+      width: 10px;
+      color: aqua;
+    }
+    /* ___________fourth_section__________ */
+    .fourth_container{
+      background-image: url(../images/bg-shorten-desktop.svg);
+      background-color: hsl(257, 27%, 26%);
+      display: flex;
+      flex-direction: column;
+      align-items : center;
+      font-weight: 900;
+      color: white;
+      padding: 1rem;
+    }
+    .btn4{
+      height: 3rem;
+      width: 13rem;
+      border-radius: 500px;
+      background-color:  hsl(180, 66%, 49%);
+      color: white;
+      font-size: 20px;
+      margin:1rem;
+    }
+        /* ___________footer__________ */
+    .footer_container{
+      display: flex;
+      color: white;
+      background-color:hsl(260, 8%, 14%);
+      justify-content: center;
+      padding: 3rem;
+    }
+    .ul_4{
+      display: flex;
+      justify-content: center;
+      margin-left: 18rem;
+    }
+    
+}
